@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Урок 10. Массивы часть 2. Задача 1");
+        System.out.println();
+        System .out.println("Урок 10. Массивы часть 2. Задача 1");
         int sum = 0;
         int [] arr = generateRandomArray();
         for (int value : arr) {
