@@ -23,10 +23,24 @@ public class Main {
         }
         System.out.println("Минимальная трата за день " + min);
         System.out.println("Максимальная трата за день " + max);
+
         System.out.println();
         System.out.println("Урок 10. Массивы часть 2. Задача 3");
-        arr = generateRandomArray();
-    }
+        int[] numberArray = generateRandomArray();
+        int sum2 = 0;
+        for (int i : numberArray) {
+            sum2 += i;
+        }
+        System.out.println(sum2 / (float) numberArray.length);
+
+        System.out.println();
+        System.out.println("Урок 10. Массивы часть 2. Задача 4");
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
+        }
+
 
         int[] arr = generateRandomArray();
 
