@@ -33,8 +33,8 @@ public class Main {
             sum2 += i;
 
         }
-        float value = sum2 / (float) numberArray.length;
-        String result = String.format("%.2f", value);
+        float total = sum2 / (float) numberArray.length;
+        String result = String.format("%.2f", total);
         System.out.print(result);
 
         System.out.println();
