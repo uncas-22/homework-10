@@ -31,8 +31,11 @@ public class Main {
         int sum2 = 0;
         for (int i : numberArray) {
             sum2 += i;
+
         }
-        System.out.println(sum2 / (float) numberArray.length);
+        float value = sum2 / (float) numberArray.length;
+        String result = String.format("%.2f", value);
+        System.out.print(result);
 
         System.out.println();
         System.out.println("Урок 10. Массивы часть 2. Задача 4");
